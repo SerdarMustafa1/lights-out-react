@@ -1,9 +1,19 @@
 .Cell {
   height: 100px;
   width: 100px;
-  background-color: darkgray;
+  background-color: #263238;
+  border-radius: 1px;
+  transition: background-color 0.7 ease;
+  -webkit-transition: background-color 0.7 ease;
+  -moz-transition: background-color 0.7 ease;
+  -ms-transition: background-color 0.7 ease;
+  -o-transition: background-color 0.7 ease;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
 }
 
 .Cell-lit {
-  background-color: white;
+  background-color: #00bcd4;
 }
